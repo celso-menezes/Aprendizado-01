@@ -1,15 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-
 body{
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #about_us {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin-top: 9px;
     background-color: #203c54;
@@ -19,11 +18,11 @@ body{
     background: linear-gradient(#4a8ec9, #3778b1, #235a8a, #16436a, #203c54);
 }
 #about_us .container_us {
-    flex-direction: column;   
-    justify-content: center; 
-    display:flex;    
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
     margin-top: -10px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
     margin-left: 0px;
     height: 540px;
 } 
@@ -34,8 +33,7 @@ body{
     width: 570px;
     height: 280px;
     padding: 12px;
-    border-top-left-radius: 10px;
-    
+    border-top-left-radius: 10px;    
     border: 1px solid rgb(255, 255, 255);
     margin-bottom: 4px;
     margin-left: 9px;
@@ -46,8 +44,7 @@ body{
     width: 570px;
     height: 222px;
     padding: 12px;
-    border-bottom-left-radius: 10px;
-    
+    border-bottom-left-radius: 10px;    
     margin-right: 1px;
     border: 1px solid rgb(255, 255, 255);
     margin-left: 9px;
@@ -64,25 +61,23 @@ body{
 }
 .traco_text_about {
     width: 50px;
-    height: 3px;    
+    height: 3px;
     background-color: rgb(217, 255, 0);
     bottom: 475px;
     margin-left: 4px;
     display: block;
     position: relative;
-     
 }
 #about_us .about_us_title2 h4 {
     text-shadow: 2px 1px 0 rgb(211, 113, 100);
     color: rgb(255, 255, 255);
-    font-size: 25px;    
-    
+    font-size: 25px;
 }
 .traco_text_about2 {
     width: 50px;
-    height: 3px;    
+    height: 3px;
     background-color: rgb(255, 0, 0);
-    margin-top: -25px;  
+    margin-top: -25px;
 }
 #about_us img {
     width: 296px;
@@ -94,7 +89,7 @@ body{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.about_us_text {    
+.about_us_text {
     text-align: justify;
     display: block;
     position: relative;
@@ -106,7 +101,7 @@ body{
     margin-bottom:0px;
     padding-top: 5px;
     padding-bottom: 5px;  
-    margin-left: 5px;  
+    margin-left: 5px;
   
     
 }
@@ -117,16 +112,13 @@ body{
 }
 .about_us_text .taekwondo {
     margin-top: 2px;
-    
 }
 .about_us_text2 p {
     font-size: 12px;
     margin-top: 25px;
     text-align: justify;
     padding: 3px;
-}                                               /*FOOTER*/
-
-
+}/*FOOTER*/
 footer {
     background-color: #ccc;
     display: flex;
@@ -135,7 +127,7 @@ footer {
     background-color: #000000;
     max-width: 97%;
     margin-left: 18px;
-    height: 358px;    
+    height: 358px;
     background: linear-gradient(#203c54, rgb(14, 7, 31), rgb(13, 3, 20), #000);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -143,7 +135,6 @@ footer {
 .footer_menu {
     display: flex;
     flex: 1;
-    
 }
 .banner_1, .banner_2, .banner_3 {
     flex: 1;
@@ -163,11 +154,11 @@ footer {
     margin-right: 3px;
     padding: 20px;
 }
-.banner_3{    
+.banner_3 {    
     background-color: #4a8ec9;
     padding: 20px;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;        
+    border-bottom-right-radius: 5px;
 }
 .footer_description {
     display: flex;
@@ -188,7 +179,7 @@ footer {
     width: 30px;
     height: 3px;    
     background-color: rgb(255, 217, 0);
-    margin-top: -25px;  
+    margin-top: -25px;
     margin-left: 20px;
 }
 .footer_text p {
@@ -204,7 +195,6 @@ footer {
 .footer_edress p {
     display: flex;
     color: white;
-    
     font-size: 10px;
 }
 .footer_edress .p23 {
@@ -238,8 +228,8 @@ footer {
     top: -10;
 }
 .footer_text a:hover {
-    text-decoration: underline;    
-}    
+    text-decoration: underline;
+}
 .copyright {
     font-size: 8px;
     color: #ccc;
@@ -247,6 +237,6 @@ footer {
     border-top: 1px solid white;
     width: 825px;
 }
-                                                 /*@MEDIA*/               
+/*@MEDIA*/
 @media (max-width: 390px) {
-}    
+}
