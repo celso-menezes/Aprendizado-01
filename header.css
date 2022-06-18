@@ -10,11 +10,15 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;   
+  margin: 0;  
+  box-sizing: border-box;
 }
-
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 header {
   background-color: rgb(255, 255, 255);
   background-size: cover;
@@ -24,7 +28,6 @@ header {
   justify-content: center;
   padding: 0 12px;
 }
-
 .menu-header {
   display: flex;
   justify-content: center;
@@ -36,7 +39,6 @@ header {
   display: flex;
   justify-content: center;
 }
-
 .logo img {
   width: 94px;
   display: flex;
@@ -48,13 +50,11 @@ header {
   border-radius: 20px;
   justify-content: center;
 }
-
 .nav {
   display: flex;
   justify-content: center;
 }
-
-.nav ul,
+.nav ul, 
 li {
   list-style: none;
   padding: 5px;
@@ -64,28 +64,27 @@ li {
   align-content: center;
   font-weight: bold;
 }
-
 .nav-right {
   display: flex;
   align-items: center;
   margin-left: 10px;
 }
-
 .nav-right li {
   margin-left: -2px;
 }
-
 .nav-right i {
   margin-left: 30px;
   cursor: pointer;
 }
-
 .nav-right i:hover {
   padding: 10px;
   background-color: hsl(32, 100%, 55%);
   border-radius: 10px;
+.nav-right i:hover{
+  padding: 10px;
+  background-color: hsl(32, 100%, 55%);
+  border-radius: 10px;
 }
-
 .nav a {
   display: block;
   padding: 0px;
@@ -93,13 +92,16 @@ li {
   color: rgb(46, 44, 44);
   position: relative;
   font-size: 18px;
-}
-
+  font-size: 18px;
+  }
 .nav a:hover {
   color: #000;
   text-shadow: 1px 1px 0 rgb(238, 255, 0);
 }
-
+.nav a:after {
+  content: "";
+  position: absolute;
+  background-color: hsl(32, 100%, 55%);
 .nav a:after {
   content: "";
   position: absolute;
@@ -112,17 +114,14 @@ li {
   border-radius: 10px;
   margin-bottom: 7px;
 }
-
 .nav a:hover::after {
   width: 90%;
 }
-
 .search {
   display: inline-block;
   align-items: center;
   position: relative;
 }
-
 .nav input {
   display: inline-flex;
   width: 540px;
@@ -132,14 +131,18 @@ li {
   font-size: 18px;
   outline: none;
 }
-
 .search i {
   display: flex;
+  font-size: 18px; 
+  outline: none;
+}
+.search i {  
+  display:flex;
   position: relative;
   background-color: rgb(0, 0, 0);
   padding: 8px;
   padding-left: 25px;
-  color: white;
+  color: #ffffff;
   top: -15px;
   margin-left: -17px;
   width: 64px;
@@ -148,14 +151,16 @@ li {
   left: 500px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor: pointer; 
+  left: 500px; 
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
 .search i:hover {
   color: hsl(32, 100%, 55%);
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 .nav serach i {
   margin-top: 20px;
 }
