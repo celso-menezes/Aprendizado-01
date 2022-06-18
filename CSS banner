@@ -1,0 +1,397 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#banner {
+    background-image: url('../image/guiga.jpg');
+    background-position:initial;
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+    height: 498px;
+    max-width: 97%;
+    margin-left: 1.5%;
+    align-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    width: 97%;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+.banner-headline h1 {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-shadow: 2px 2px 0px #861001;
+    margin: 0px;
+    padding: 0;
+    width: 450px;
+    margin-right: 400px;
+    margin-top: 2px;
+}
+.banner-headline h1:hover {
+    border-block: 1px solid #ccc;
+    padding: 0;    
+}
+.banner-headline h2 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #a80707;
+    font-size: 21px;
+    margin: 0px;
+    padding: 0;
+    max-width: 400px;
+    margin-left: 400px;
+}
+.banner-headline h2:hover {
+    border-block: 1px solid #ccc; 
+    padding: 0;    
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+                                                            /*VITRINE*/
+ .vitrine1,
+ .vitrine2,
+ .vitrine3 {
+     flex: 1;
+     width: 1px;
+     margin-top: 30px;
+     display: inline-table;
+ }
+.vitrine1 {
+    background-color: hsl(32, 100%, 55%);
+    margin-right: 5px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.vitrine2 {
+    background-color: hsl(19, 89%, 52%);
+    margin-right: 5px;
+    padding: 20px;
+}
+.vitrine3 {    
+    background-color: rgb(242, 24, 24);
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    position: relative;
+    height: 197.5px;
+    line-height: 16.5px;      
+}
+h3 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 0 rgb(3, 1, 0);
+    
+}
+h4 {    
+    color: white;
+    text-shadow: 1px 1px 0 rgb(3, 1, 0);
+    margin-top: 20px;
+    margin-bottom: 25px; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.banner-options .vitrine3 h4 {
+    font-size: 14px;    
+    display: flex;   
+    border-bottom: 1px solid white; 
+}
+.vitrine3 .p22 {
+    margin-left: 114px;
+}
+.banner-options p {
+    margin-left: 100px;
+    margin-top: 0px;    
+    display: flex;
+    position: relative;
+    left: 1px;
+   
+}
+
+.banner-options a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 7px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+.vitrine1 a:hover {
+    border: 1.5px solid rgb(242, 24, 24);
+}
+.vitrine2 a:hover {
+    border: 1.5px solid hsl(32, 100%, 55%);
+}
+.vitrine3 a:hover {
+    border: 1.5px solid hsl(69, 100%, 55%);
+}
+
+                                              /*TERCEIRA_PARTE*/
+
+#geral {
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: #203c54;
+    max-width: 97%;
+    margin-left: 18px;
+    height: 835px;    
+    background: linear-gradient(#203c54, #16436a, #235a8a, #3778b1, #4a8ec9);
+    margin-bottom: -8px;    
+} 
+.container_corpo {
+    flex-direction: row;   
+    justify-content: center; 
+    display:flex;    
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    margin-left: 0px;
+    height: 540px;
+}      
+#geral .asid1 {   
+    flex-direction: column; 
+    display: flex;
+    margin-right: 5px;
+    width: 567px;
+    height: 800px;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.title_left h3{
+    text-shadow: 1px 1px 0 rgb(199, 201, 79);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.title_right h3{
+    text-shadow: 1px 1px 0 rgb(211, 113, 100);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+#geral .asid2 {    
+    width: 280.5px;
+    height: 800px;
+    padding: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 1px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.traço_text {
+    width: 50px;
+    height: 3px;    
+    background-color: rgb(217, 255, 0);
+    margin-top: 10px;    
+}
+.traço_text_right {
+    width: 50px;
+    height: 3px;  
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+}
+.body_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.box_right_00{
+    width: 100px;
+    height: 100px;  
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    margin-right: 20px;    
+}
+.box_right_01 {
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    height: 100px;   
+    background-color: #ccc;
+    margin-bottom: 2px;
+    border-top-right-radius: 5px;
+    
+}
+.box_right_02 {
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    height: 100px;   
+    background-color: #ccc;
+    margin-right: 20px;
+}
+.box_right_0 {
+    width: 100px;
+    height: 100px;    
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    
+}
+.box_right_1 {
+    display: flex;
+    width: 100px;
+    height: 100px;    
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.box_right_2 {
+    margin-top: 20px;
+    top: 10px;
+    width: 100px;
+    height: 100px;    
+    background-color: #ccc;
+    border-bottom-right-radius: 5px;
+}
+.traço_text_right_dp {
+    width: 50px;
+    height: 3px;    
+    background-color: rgb(255, 0, 0);
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.title_right_dp h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.body_aside i { 
+    font-size: 12px;   
+    margin-left: 17px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 200px;
+    cursor: pointer;
+    justify-content: left;
+    color: #183153;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.margen_icons {
+    margin-top: -10px;
+}
+.body_aside .margen_icons p{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.body_aside .margen_icons .fa-brands {
+    font-size: 20px;
+}
+.body_aside .margen_icons .fa-solid {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+}
+.body_aside .margen_icons .p_gui {
+    margin-left: 50px;
+}
+.traco_icon {
+    width: 250px;
+    height: 2px;  
+    background-color: rgb(255, 0, 0);
+    margin-top: 13px;
+    margin-bottom: -4px;
+}
+.body_aside {
+    color: #ccc;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    min-width: 200px;
+    min-height: 163px;
+}
+
+article .news_data {                                    /*NEWS*/
+    display: flex;
+    margin-top: 20px;
+}
+article .news_posted_at {
+    color: rgb(255, 251, 0);
+    text-shadow: 1px 0 1px black;
+    background-color: #638bac;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+    width: 65px;
+    border-top-left-radius: 5px;
+}
+article .news_coments {
+    color: rgb(255, 255, 255);
+    background-color: #0c2c47;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;  
+    width: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+article .news_thumbnail {
+    margin-top: 8px;
+}
+article .news_thumbnail img {
+    margin-right: 1px;
+    width: 98%;
+    height: auto;
+}
+article .news_title {
+    color: white;
+    text-shadow: 1px 1px 1px #000;    
+    margin-top: 13px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+article .news_resume {
+    border: 1px solid #ffffff;
+    padding: 3px;
+    width: 98%;
+    font-size: 12px;    
+    color: rgb(29, 28, 28);
+    line-height: 16px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color:#638bac;
+    text-align: justify;  
+}
