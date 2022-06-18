@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  
+
 }
 
 *:before,
@@ -25,23 +25,23 @@ header {
   display: flex;
   justify-content: center;
   padding: 0 12px;
-  
-  
+
+
 }
 
 .menu-header {
   display: flex;
   justify-content: center;
   width: 990px;
-          
+
 }
 
 .logo-img-a {
   padding: 0px;
   display: flex;
   justify-content: center;
-  
-  
+
+
 }
 
 .logo img {
@@ -60,7 +60,7 @@ header {
 .nav {
   display: flex;
   justify-content: center;
- 
+
 }
 
 .nav ul, li {
@@ -71,8 +71,8 @@ header {
   align-items: center;
   align-content: center;
   font-weight: bold;
-  
- 
+
+
 }
 
 .nav-right {
@@ -83,8 +83,8 @@ header {
 
 .nav-right li {
   margin-left: -2px;
-  
-  
+
+
 }
 
 .nav-right i {
@@ -96,7 +96,7 @@ header {
   padding: 10px;
   background-color: hsl(32, 100%, 55%);
   border-radius: 10px;
-  
+
 }
 
 .nav a {
@@ -106,7 +106,7 @@ header {
   color: rgb(46, 44, 44);
   position: relative;
   font-size: 18px; 
- 
+
 }
 
 .nav a:hover {
@@ -139,8 +139,8 @@ header {
   display: inline-block;
   align-items: center;
   position: relative;
-  
-  
+
+
 }
 
 .nav input {
@@ -151,7 +151,7 @@ header {
   top: 20px;
   font-size: 18px; 
   outline: none;
-  
+
 }
 
 .search i {  
@@ -169,7 +169,7 @@ header {
   left: 500px; 
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  
+
 }
 
 .search i:hover {
