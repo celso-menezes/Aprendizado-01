@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#about_us {
+    display:flex;
+    justify-content: center;
+    margin-top: 9px;
+    background-color: #203c54;
+    max-width: 97%;
+    margin-left: 18px;
+    height: 520px;
+    background: linear-gradient(#4a8ec9, #3778b1, #235a8a, #16436a, #203c54);
+}
+#about_us .container_us {
+    flex-direction: column;   
+    justify-content: center; 
+    display:flex;    
+    margin-top: -10px;
+    margin-bottom: 20px;   
+    margin-left: 0px;
+    height: 540px;
+} 
+#about_us .about_us_column1 {
+    flex-direction: column;
+    display: flex;
+    margin-right: 296px;
+    width: 570px;
+    height: 280px;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 4px;
+    margin-left: 9px;
+    background-color: #16436a;
+    background: linear-gradient(#4a8ec9, #5497d1, #5c9cd4, #70ace0, #74b1e7)
+}
+#about_us .about_us_column2 {
+    width: 570px;
+    height: 222px;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    
+    margin-right: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 9px;
+    background-color: #16436a;
+    background: linear-gradient(#74b1e7, #70ace0, #5c9cd4, #5497d1, #4a8ec9)
+}
+#about_us .about_us_title h4{
+    text-shadow: 2px 1px 0 rgb(211, 113, 100);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: -1px;
+    display: flex;
+    
+}
+.traco_text_about {
+    width: 50px;
+    height: 3px;    
+    background-color: rgb(217, 255, 0);
+    bottom: 475px;
+    margin-left: 4px;
+    display: block;
+    position: relative;
+     
+}
+#about_us .about_us_title2 h4 {
+    text-shadow: 2px 1px 0 rgb(211, 113, 100);
+    color: rgb(255, 255, 255);
+    font-size: 25px;    
+    
+}
+.traco_text_about2 {
+    width: 50px;
+    height: 3px;    
+    background-color: rgb(255, 0, 0);
+    margin-top: -25px;  
+}
+#about_us img {
+    width: 296px;
+    display: inline-block;
+    padding: 0 8px;
+    position: relative;
+    left: 429px;
+    bottom: 33px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.about_us_text {    
+    text-align: justify;
+    display: block;
+    position: relative;
+    bottom: 500px;
+}
+.about_us_text h4 {
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    margin-left: 5px;  
+  
+    
+}
+.about_us_text p {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 3px;
+}
+.about_us_text .taekwondo {
+    margin-top: 2px;
+    
+}
+.about_us_text2 p {
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: justify;
+    padding: 3px;
+}                                               /*FOOTER*/
+
+
+footer {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    background-color: #000000;
+    max-width: 97%;
+    margin-left: 18px;
+    height: 358px;    
+    background: linear-gradient(#203c54, rgb(14, 7, 31), rgb(13, 3, 20), #000);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.footer_menu {
+    display: flex;
+    flex: 1;
+    
+}
+.banner_1, .banner_2, .banner_3 {
+    flex: 1;
+    width: 283px;
+    height: 135px;
+    margin-right: 3px;
+}
+.banner_1 {
+    background-color: #203c54;
+    margin-right: 3px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.banner_2 {
+    background-color: #335b7e;
+    margin-right: 3px;
+    padding: 20px;
+}
+.banner_3{    
+    background-color: #4a8ec9;
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;        
+}
+.footer_description {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.footer_text1, .footer_text2, .footer_text3 {
+    flex: 1;
+    width: 283px;
+    height: 135px;
+    margin-right: 3px;
+}
+.footer_title h4 {
+    font-size: 14px;
+    margin-left: 21px;
+}
+.traco_footer {
+    width: 30px;
+    height: 3px;    
+    background-color: rgb(255, 217, 0);
+    margin-top: -25px;  
+    margin-left: 20px;
+}
+.footer_text p {
+    color: white;
+    font-size: 12px;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+.footer_edress {
+    margin-top: 12px;
+    margin-left: 22px;
+}
+.footer_edress p {
+    display: flex;
+    color: white;
+    
+    font-size: 10px;
+}
+.footer_edress .p23 {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    margin-left: 200px;
+}
+.footer_edress .p23_email {
+    display: block;
+    position: relative;
+    bottom: 10px;
+    margin-left: 200px;
+    right: 45px;
+}
+.footer_text li {
+    color: white;
+    font-size: 10px;
+    margin-left: 18px;
+    margin-top: 12px;
+    text-decoration: initial;
+    list-style: circle;
+}
+.footer_text a {
+    margin-left: 24px;
+    font-size: 10px;
+    color: #4a8ec9;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: -10;
+}
+.footer_text a:hover {
+    text-decoration: underline;    
+}    
+.copyright {
+    font-size: 8px;
+    color: #ccc;
+    margin-top: 2px;
+    border-top: 1px solid white;
+    width: 825px;
+}
+                                                 /*@MEDIA*/               
+@media (max-width: 390px) {
+}    
