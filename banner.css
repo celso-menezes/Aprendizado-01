@@ -143,7 +143,7 @@ h4 {
 }
 body{
     background-color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #banner {
     background-image: url("../image/guiga.jpg");
@@ -166,7 +166,7 @@ body{
     height: 288px;
     display: flex;
     flex-direction: column;
-    justify-content: center ;    
+    justify-content: center ;
 }
 .banner-headline h1 {
     display: flex;
@@ -196,7 +196,6 @@ body{
     border-block: 1px solid #ccc;
     padding: 0;
 }
-
 .banner-options {
     height: 210px;
     display: flex;
@@ -237,14 +236,13 @@ h3 {
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 0 rgb(3, 1, 0);
-    
 }
 h4 {    
     color: white;
     text-shadow: 1px 1px 0 rgb(3, 1, 0);
     margin-top: 20px;
     margin-bottom: 25px; 
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 .banner-options .vitrine3 h4 {
     font-size: 14px;
@@ -256,10 +254,10 @@ h4 {
 }
 .banner-options p {
     margin-left: 100px;
-    margin-top: 0px;    
+    margin-top: 0px;
     display: flex;
     position: relative;
-    left: 1px;   
+    left: 1px;
 }
 .banner-options a {
     display: inline-block;
@@ -558,7 +556,7 @@ article .news_resume {
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-#geral .asid2 {    
+#geral .asid2 {
     width: 280.5px;
     height: 800px;
     padding: 12px;
@@ -571,7 +569,7 @@ article .news_resume {
     width: 50px;
     height: 3px;    
     background-color: rgb(217, 255, 0);
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 .traço_text_right {
     width: 50px;
@@ -601,7 +599,7 @@ article .news_resume {
     height: 100px;   
     background-color: #ccc;
     margin-bottom: 2px;
-    border-top-right-radius: 5px;    
+    border-top-right-radius: 5px;
 }
 .box_right_02 {
     margin-top: 20px;
@@ -656,7 +654,7 @@ article .news_resume {
     justify-content: left;
     color: #183153;
     display: flex;
-    flex-wrap: nowrap;   
+    flex-wrap: nowrap;
 }
 .margen_icons {
     margin-top: -10px;
@@ -669,7 +667,6 @@ article .news_resume {
     justify-content: flex-start;
     text-shadow: 1px 1px 0 #000;
 }
-
 .body_aside .margen_icons .fa-brands {
     font-size: 20px;
 }
@@ -701,7 +698,6 @@ article {
     min-width: 200px;
     min-height: 163px;
 }
-
 article .news_data {                                    /*NEWS*/
     display: flex;
     margin-top: 20px;
